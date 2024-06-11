@@ -12,17 +12,6 @@ h1 {
   padding: 20px;
 }
 
-footer {
-  color:  #283149;
-  background-color:#DBEDF3;
-  font-family: "Reddit Mono";
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  padding: 0.5rem;
-  font-size: small;
-}
 
 label {
   color: #DBEDF3;

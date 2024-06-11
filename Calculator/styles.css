@@ -8,17 +8,6 @@ h1 {
   text-shadow:  3px 1px  #F5D85B;
 }
 
-footer {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    padding: 0.5rem;
-    font-size: small;
-    text-align: center;
-    background-color: #44C693;
-}
-
   .calculator {
     width: 200px;
     margin: 0 auto;
