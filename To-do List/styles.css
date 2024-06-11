@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background-color: #283149;
+    font-family: "Reddit Mono";
+  }
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Reddit Mono";
+  text-shadow: 3px 0  red;
+  padding: 20px;
+}
+
+footer {
+  color:  #283149;
+  background-color:#DBEDF3;
+  font-family: "Reddit Mono";
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: small;
+}
+
+label {
+  color: #DBEDF3;
+  font-family: "Reddit Mono";
+  padding: 5px;
+}
+
+button {
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: #DBEDF3;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btn-xs {
+  padding: 4px 4px;
+  font-size: 16px;
+  line-height: 0.4;
+  background-color: #283149;
+}
+
+.btn-xs:hover {
+  background-color: #DBEDF3;
+    box-shadow: 3px 0  red;
+}
