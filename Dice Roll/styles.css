@@ -19,9 +19,8 @@
   }
   
   p {
-    font-size: 2rem;
-    color: #004AAD;
-    font-family: 'Tiny5';
+    font-size: small;
+    text-align: center;
   }
   
   img {
