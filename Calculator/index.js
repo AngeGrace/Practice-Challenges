@@ -15,3 +15,15 @@ function calculate() {
     }
     document.getElementById("display").value = result;
 }
+
+document.addEventListener("keypress", function (event) {
+        var keyValue = event.key;
+
+        if (!isNaN(parseInt(keyValue)) || "+-*/".includes(keyValue)) {
+            display(keyValue);
+        } else if (keyValue === "Enter") {
+            calculate();
+        } else if (keyValue === "c" || keyValue === "C") {
+            clearDisplay();
+        }
+    });
