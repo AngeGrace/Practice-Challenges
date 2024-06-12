@@ -67,8 +67,6 @@ function getTasks() {
 }
 
 function saveTasks(tasks) {
-  alert(tasks);
-  alert(JSON.stringify(tasks));
   localStorage.setItem("tasks", JSON.stringify(tasks));
 }
 

@@ -46,10 +46,17 @@ button {
     cursor: pointer;
     border-radius: 50%;
     border-color: #44C693;
+    box-shadow: #232931 1px 1px 0px 0px, 1px 1px 0px 0px, 1px 1px 0px 0px, 1px 1px 0px 0px, 2px 2px 0px 0px;
+
 }
 
 button:hover {
     background-color: lightgray;
+}
+
+button:active{
+  box-shadow: #232931 0px 0px 0px 0px;
+
 }
 
 .fuzzy-bubbles-bold {
