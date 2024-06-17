@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: black;
+    font-family: "Arvo";  
+  }
+
+  button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .red {
+    background-color: red;
+  }
+
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+
+  button:active {
+    background-color: black;
+    color: #DBEDF3;
+  }
